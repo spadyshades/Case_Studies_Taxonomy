@@ -1,0 +1,39 @@
+# Data files (too large for GitHub)
+data/
+*.json
+!requirements.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Outputs (generated files)
+outputs/*.png
+outputs/*.csv
+outputs/*.html
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pth
+*.pt
+*.pkl
